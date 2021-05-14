@@ -79,7 +79,7 @@ case 1:printf("\n\t\tADDITION");
 	  break;
  case 2: printf("\n\t\tSUBTRACTION");
 	 printf("\nENTER THE TWO NUMBERS");
-	  printf("\nCHOOSE 1.INTEGER OR 2.FLOAT");
+	  printf("\nCHOOSE 1.INTEGER OR 2.FLOAT\n");
 	 scanf("%d",&fch);
        switch(fch)
        {
@@ -158,7 +158,7 @@ case 5 :
 case 6 :
 	printf("\n\t\tMATRIX\n");
 	printf("\nENTER THE CHOICE\n");
-	printf("\n1.ADDITION FOR MATRIX\n2.SUBTRACTION FOR MATRIX");
+	printf("\n1.ADDITION FOR MATRIX\n2.SUBTRACTION FOR MATRIX\n");
 	scanf("%d",&mx);
 	switch(mx)
 	{
