@@ -41,12 +41,12 @@ delay(100);
 printf("\033[0m");
 }
 printf("\nENTER THE CHOICE");
-printf("\n1.ADDITION\n2.SUBTRACTION\n3.MULPLICATION\n4.DIVISION\n5.MODULO\n6.MATRIX\n");
+printf("\n1.ADDITION\n2.SUBTRACTION\n3.MULPLICATION\n4.DIVISION\n5.MODULO\n6.MATRIX\n0.EXIT\n");
 scanf("%d",&ch);
 switch(ch)
 {
 case 1:printf("\n\t\tADDITION");
-       printf("\nCHOOSE 1.INTEGER OR 2.FLOAT");
+       printf("\nCHOOSE 1.INTEGER OR 2.FLOAT\n");
        scanf("%d",&ach);
        switch(ach)
        {
@@ -102,7 +102,7 @@ case 1:printf("\n\t\tADDITION");
 	    break;
   case 3 :  printf("\n\t\tMULTIPLICATION");
 	    printf("\nENTER THE TWO NUMBERS");
-	    printf("\nCHOOSE 1.INTEGER OR 2.FLOAT");
+	    printf("\nCHOOSE 1.INTEGER OR 2.FLOAT\n");
 	   scanf("%d",&mch);
 	 switch(mch)
 	 {
@@ -126,7 +126,7 @@ case 1:printf("\n\t\tADDITION");
 case 4:
 	   printf("\n\t\tDIVISION");
 	 printf("\nENTER THE TWO NUMBERS");
-	printf("\nCHOOSE 1.INTEGER OR 2.FLOAT");
+	printf("\nCHOOSE 1.INTEGER OR 2.FLOAT\n");
 	scanf("%d",&dch);
        switch(dch)
        {
@@ -229,6 +229,11 @@ case 6 :
        break;
        }
        break;
+case 0 :
+       exit;
+       break;
+
+
 default :
 	printf("INVALID ");
 
